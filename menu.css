@@ -1,13 +1,20 @@
-.b {
-font-size: 25px;
+﻿div {
+font-size: 40px;
 }
 
-.a {
+.bg {
+filter: blur(10px);
+}
+
+a {
 font-size: 40px;
+}
+
+.div {
 color: #ffffff;
 }
 
-.b {
+.a {
 color: #d61a1a
 }
 
