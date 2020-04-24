@@ -1,9 +1,21 @@
-﻿div {
+div {
 font-size: 40px;
+}
+
+.bg {
+filter: blur(10px);
 }
 
 a {
 font-size: 40px;
+}
+
+.div {
+color: #ffffff;
+}
+
+.a {
+color: #d61a1a
 }
 
 naw {
@@ -27,6 +39,26 @@ margin:0;
 pading:0;
 list-style:none;
 height:50px;
+}
+
+ul li {
+float:left;
+}
+
+ul li a {
+color:red;
+display:block;
+height:50px;
+padding:0 30px;
+text-transform:uppercase;
+text-decoration:none;
+line-height:50px;
+
+transition: 0.2s ease-out;
+}
+ul li a:hover {
+background:green;
+}
 }
 
 ul li {
